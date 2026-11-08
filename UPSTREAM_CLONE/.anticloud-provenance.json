@@ -1,0 +1,18 @@
+{
+  "name": "L_OPENCLAW",
+  "slug": "Significant-Gravitas/AutoGPT",
+  "url": "https://github.com/Significant-Gravitas/AutoGPT",
+  "tier": 6,
+  "domain": "agents",
+  "role": "autonomous agent platform",
+  "commit": "bf6e0c33d0f615983082ed7a5343dbbfc25adaab",
+  "commit_date": "2026-09-29T21:40:39+00:00",
+  "licence": "MIT",
+  "licence_file": "LICENSE",
+  "licence_class": "permissive",
+  "vendored_at": "2026-09-30T08:32:04.301777+00:00",
+  "depth": 1,
+  "size_mb": 224.69,
+  "ok": true,
+  "error": ""
+}

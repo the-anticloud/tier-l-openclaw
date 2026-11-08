@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "L_OPENCLAW",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 10,
+    "average_complexity": {
+      "grade": "A",
+      "score": 3.56
+    },
+    "complexity_grade": "A",
+    "complexity_score": 3.56,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_OPENCLAW\\UPSTREAM\\autogpt_platform\\_anticloud_egress.py\n    F 38:0 _is_frontier - A (4)\n    F 43:0 guarded_connect - A (4)\n    F 61:0 install - A (3)\n    F 33:0 is_offline - A (1)\n    C 29:0 EgressDenied - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_OPENCLAW\\UPSTREAM\\autogpt_platform\\single-container\\fatal_listener.py\n    F 27:0 handle_event - B (9)\n    F 85:0 _safe_process_name - A (4)\n    F 17:0 main - A (3)\n    F 76:0 _parse_fields - A (3)\n    F 92:0 _terminate_supervisor - A (2)\n    F 71:0 _acknowledge - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_OPENCLAW\\UPSTREAM\\autogpt_platform\\single-container\\probe.py\n    F 160:0 _read_resp - B (10)\n    F 110:0 probe_redis - B (7)\n    F 15:0 main - B (6)\n    F 80:0 probe_amqp - A (4)\n    F 73:0 probe_http_many - A (3)\n    F 148:0 _read_exactly - A (3)\n    F 66:0 probe_http - A (2)\n    F 140:0 _send_resp_command - A (2)\n    F 61:0 probe_tcp - A (1)\n    F 134:0 _add_address_arguments - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_OPENCLAW\\UPSTREAM\\autogpt_platform\\single-container\\runtime_config.py\n    F 270:0 _validate_values - C (13)\n    F 27:0 main - C (11)\n    F 146:0 validate_public_url - B (10)\n    F 169:0 _normalize_public_host - B (8)\n    F 321:0 _read_config - B (8)\n    F 352:0 _write_config - B (7)\n    F 92:0 fill_env_blanks - B (6)\n    F 119:0 check_env_defaults - A (4)\n    F 211:0 _configured_or_generated_vapid - A ",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_OPENCLAW\\UPSTREAM\\autogpt_platform\\_anticloud_egress.py - A (79.55)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_OPENCLAW\\UPSTREAM\\autogpt_platform\\__init__.py - A (100.00)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_OPENCLAW\\UPSTREAM\\autogpt_platform\\single-container\\fatal_listener.py - A (48.77)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_OPENCLAW\\UPSTREAM\\autogpt_platform\\single-container\\probe.py - A ("
+  }
+}

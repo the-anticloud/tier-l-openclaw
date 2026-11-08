@@ -1,0 +1,67 @@
+{
+  "benchmark": "HF_Leaderboard_Lab_Results",
+  "project": "L_OPENCLAW",
+  "tier": "TIER_6_SECURITY_EVAL",
+  "slug": "Significant-Gravitas/AutoGPT",
+  "commit": "bf6e0c33d0f6",
+  "run_timestamp": "2026-09-30T15:07:07.146295+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_model_load_time_sec": 4.42,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HuggingFace Open LLM Leaderboard (proxy via distilbert-base-uncased)",
+    "source": "https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/archive",
+    "model_used": "distilbert-base-uncased",
+    "note": "Full MMLU/HellaSwag/TruthfulQA/ARC/Winogrande/GSM8K require GPU. Proxy: inference latency.",
+    "samples_run": 5,
+    "latency_ms": {
+      "avg": 47.48,
+      "min": 41.97,
+      "max": 51.49,
+      "all": [
+        51.49,
+        41.97,
+        45.97,
+        51.49,
+        46.49
+      ]
+    },
+    "status": "PASS",
+    "tokenization": {
+      "model": "distilbert-base-uncased",
+      "input_text": "L_OPENCLAW (Significant-Gravitas/AutoGPT) \u2014 8148 files, 999155 source lines, licence MIT, primary language ['TypeScript']",
+      "token_count": 40,
+      "tokens_preview": [
+        "[CLS]",
+        "l",
+        "_",
+        "open",
+        "##cl",
+        "##aw",
+        "(",
+        "significant",
+        "-",
+        "gr",
+        "##avi",
+        "##tas",
+        "/",
+        "auto",
+        "##gp",
+        "##t",
+        ")",
+        "\u2014",
+        "81",
+        "##48"
+      ],
+      "tokenization_latency_ms": 0.0,
+      "classification_label": "LABEL_0",
+      "classification_score": 0.5849,
+      "classification_latency_ms": 68.51,
+      "status": "PASS"
+    }
+  }
+}

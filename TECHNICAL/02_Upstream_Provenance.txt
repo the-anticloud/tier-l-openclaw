@@ -1,0 +1,28 @@
+ Upstream Provenance
+
+Project: L_OPENCLAW  
+Tier: TIER_6_SECURITY_EVAL  
+Identity: Upstream Significant-Gravitas/AutoGPT @ bf6e0c33d0f6 (MIT)
+
+ Recorded identity
+
+| Fact | Value |
+| --- | --- |
+| Upstream | Significant-Gravitas/AutoGPT |
+| Commit | bf6e0c33d0f615983082ed7a5343dbbfc25adaab |
+| Upstream licence | MIT |
+| Licence class | permissive |
+| Clone size | 224.69 MB |
+| Ledger | 0 blocks, chain verified |
+| Current TRL | NOT YET MEASURED |
+| Post-optimisation TRL | NOT YET MEASURED |
+| II budget cap | 1500.0 IIU |
+| Verified upstream edits | 1 |
+
+ Obligation
+
+L_OPENCLAW is vendored under MIT (permissive). Any Anticloud edit to
+the vendored tree is a derivative work and is tracked in
+anticloud-edits.json; the notice of changes is at the project NOTICE.md.
+Where the licence class is unknown, no edit may be applied until the
+licence is identified, because the absence of a licence is not a grant.

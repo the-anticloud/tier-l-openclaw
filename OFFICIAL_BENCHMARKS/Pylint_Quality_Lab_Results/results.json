@@ -1,0 +1,15 @@
+{
+  "benchmark": "Pylint_Quality_Lab_Results",
+  "project": "L_OPENCLAW",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://pylint.readthedocs.io/",
+  "results": {
+    "framework": "Pylint \u2014 Python Code Quality Analyzer",
+    "source": "https://pylint.readthedocs.io/",
+    "files_analyzed": 5,
+    "pylint_score": 9.33,
+    "pylint_score_max": 10.0,
+    "status": "PASS",
+    "raw_output": "************* Module autogpt_platform._anticloud_egress\nTIER_6_SECURITY_EVAL\\L_OPENCLAW\\UPSTREAM\\autogpt_platform\\_anticloud_egress.py:33:0: C0116: Missing function or method docstring (missing-function-docstring)\nTIER_6_SECURITY_EVAL\\L_OPENCLAW\\UPSTREAM\\autogpt_platform\\_anticloud_egress.py:63:4: W0603: Using the global statement (global-statement)\n************* Module autogpt_platform\nTIER_6_SECURITY_EVAL\\L_OPENCLAW\\UPSTREAM\\autogpt_platform\\__init__.py:1:0: C0114: Missing module docstring (missing-module-docstring)\nTIER_6_SECURITY_EVAL\\L_OPENCLAW\\UPSTREAM\\autogpt_platform\\__init__.py:7:7: W0718: Catching too general exception Exception (broad-exception-caught)\n************* Module fatal_listener\nTIER_6_SECURITY_EVAL\\L_OPENCLAW\\UPSTREAM\\autogpt_platform\\single-container\\fatal_listener.py:17:0: C0116: Missing function or method docstring (missing-function-docstring)\nTIER_6_SECURITY_EVAL\\L_OPENCLAW\\UPSTREAM\\autogpt_platform\\single-container\\fatal_listener.py:27:0: C0116: Missing function or method docstring (missing-function-docstring)\nTIER_6_SECURITY_EVAL\\L_OPENCLAW\\UPSTREAM\\autogpt_platform\\single-container\\fatal_listener.py:95:8: E1101: Module 'signal' has no 'pause' member (no-member)\n************* Module probe\nTIER_6_SECURITY_EVAL\\L_OPENCLAW\\UPSTREAM\\autogpt_platform\\single-container\\probe.py:15:0: C0116: Missing function or method docstring (missing-function-docstring)\nTIER_6_SECURITY_EVAL\\L_OPENCLAW\\UPSTREAM\\autogpt_platform\\single-container\\probe.py:61:0: C0116: Missing function or method docstring (missing-function-docstring)\nTIER_6_SECURITY_EVAL\\L_OPENCLAW\\UPSTREAM\\autogpt_platform\\single-container\\probe.py:66:0: C0116: Missing function or method docstring (missing-function-docstring)\nTIER_6_SECURITY_EVAL\\L_OPENCLAW\\UPSTREAM\\autogpt_platform\\single-container\\probe.py:73:0: C0116: Missing function or method docstring (missing-function-docstring)\nTIER_6_SECURITY_EVAL\\L_OPENCLAW\\UPSTREAM\\autogpt_platform\\single-container\\probe.py:80:0: C0116: Missing function"
+  }
+}
